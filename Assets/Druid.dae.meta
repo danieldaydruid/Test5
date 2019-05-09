@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 823a232f6c83f4dadb227ae5bbd0f5e1
+timeCreated: 1555466944
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: antebrazo.L
+    100002: antebrazo.R
+    100004: anular.L
+    100006: anular.R
+    100008: anular1.L
+    100010: anular1.R
+    100012: anular2.L
+    100014: anular2.R
+    100016: Armature
+    100018: brazo.L
+    100020: brazo.R
+    100022: cabeza
+    100024: cadera
+    100026: Circle
+    100028: codo.L
+    100030: codo.R
+    100032: corazon.L
+    100034: corazon.R
+    100036: corazon1.L
+    100038: corazon1.R
+    100040: corazon2.L
+    100042: corazon2.R
+    100044: cuello
+    100046: //RootNode
+    100048: empty_nariz
+    100050: empty_pelo
+    100052: empty_pelo_001
+    100054: femur.L
+    100056: femur.R
+    100058: hombro.L
+    100060: hombro.R
+    100062: IKMano.L
+    100064: IKMano.R
+    100066: IKPie.L
+    100068: IKPie.R
+    100070: indice.L
+    100072: indice.R
+    100074: indice1.L
+    100076: indice1.R
+    100078: indice2.L
+    100080: indice2.R
+    100082: mano.L
+    100084: mano.R
+    100086: "me\xF1ique.L"
+    100088: "me\xF1ique.R"
+    100090: "me\xF1ique1.L"
+    100092: "me\xF1ique1.R"
+    100094: "me\xF1ique2.L"
+    100096: "me\xF1ique2.R"
+    100098: pecho
+    100100: pie.L
+    100102: pie.R
+    100104: pulgar.L
+    100106: pulgar.R
+    100108: pulgar1.L
+    100110: pulgar1.R
+    100112: pulgar2.L
+    100114: pulgar2.R
+    100116: raiz
+    100118: rodilla.L
+    100120: rodilla.R
+    100122: spine
+    100124: tibia.L
+    100126: tibia.R
+    400000: antebrazo.L
+    400002: antebrazo.R
+    400004: anular.L
+    400006: anular.R
+    400008: anular1.L
+    400010: anular1.R
+    400012: anular2.L
+    400014: anular2.R
+    400016: Armature
+    400018: brazo.L
+    400020: brazo.R
+    400022: cabeza
+    400024: cadera
+    400026: Circle
+    400028: codo.L
+    400030: codo.R
+    400032: corazon.L
+    400034: corazon.R
+    400036: corazon1.L
+    400038: corazon1.R
+    400040: corazon2.L
+    400042: corazon2.R
+    400044: cuello
+    400046: //RootNode
+    400048: empty_nariz
+    400050: empty_pelo
+    400052: empty_pelo_001
+    400054: femur.L
+    400056: femur.R
+    400058: hombro.L
+    400060: hombro.R
+    400062: IKMano.L
+    400064: IKMano.R
+    400066: IKPie.L
+    400068: IKPie.R
+    400070: indice.L
+    400072: indice.R
+    400074: indice1.L
+    400076: indice1.R
+    400078: indice2.L
+    400080: indice2.R
+    400082: mano.L
+    400084: mano.R
+    400086: "me\xF1ique.L"
+    400088: "me\xF1ique.R"
+    400090: "me\xF1ique1.L"
+    400092: "me\xF1ique1.R"
+    400094: "me\xF1ique2.L"
+    400096: "me\xF1ique2.R"
+    400098: pecho
+    400100: pie.L
+    400102: pie.R
+    400104: pulgar.L
+    400106: pulgar.R
+    400108: pulgar1.L
+    400110: pulgar1.R
+    400112: pulgar2.L
+    400114: pulgar2.R
+    400116: raiz
+    400118: rodilla.L
+    400120: rodilla.R
+    400122: spine
+    400124: tibia.L
+    400126: tibia.R
+    2100000: Material__46_001
+    2100002: Material_001
+    2100004: Material
+    2100006: No Name
+    2300000: Circle
+    2300002: empty_pelo
+    2300004: empty_pelo_001
+    3300000: Circle
+    3300002: empty_pelo
+    3300004: empty_pelo_001
+    4300000: Circle
+    4300002: empty_pelo
+    4300004: empty_pelo_001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
