@@ -34,7 +34,7 @@ public class FinalBossSceneMgr : MonoBehaviour {
 		PlayerHealth = PlayerCam.GetComponent<Player_control>().Health;
 		BossHealth  = GameObject.Find("Boss").GetComponent<BossMove>().Health;
 		if(PlayerHealth <= 0) SceneManager.LoadScene("final_boss");
-		if(BossHealth <= 100)
+		if(BossHealth <= 10)
 		{
 			if(!check_for_end)
 			{

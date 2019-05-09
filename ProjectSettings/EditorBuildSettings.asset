@@ -23,3 +23,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scene/Level4.unity
     guid: 198ef38cf38ea44cb8d345d269d38117
+  - enabled: 1
+    path: Assets/Scene/final_boss.unity
+    guid: e8d45ea1e7b704064ab588d57aa8a197

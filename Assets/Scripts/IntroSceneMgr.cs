@@ -29,9 +29,9 @@ public class IntroSceneMgr : MonoBehaviour {
 		OutroCam.SetActive(false);
 		IntroCam2.SetActive(false);
 		IntroCam1.SetActive(true);
-		yield return new WaitForSeconds(130);
+		yield return new WaitForSeconds(130);//130
 		FireController.SetActive(true);
-		yield return new WaitForSeconds(100);
+		yield return new WaitForSeconds(100);//100
 		IntroCam1.SetActive(false);
 		IntroCam2.SetActive(true);
 		yield return new WaitForSeconds(8);

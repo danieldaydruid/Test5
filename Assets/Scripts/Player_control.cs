@@ -29,16 +29,21 @@ public class Player_control : MonoBehaviour {
 	}
 
 	void Update() {
-		if(SceneManager.GetActiveScene().name == "Level4")
+		if(SceneManager.GetActiveScene().name == "Level4" || SceneManager.GetActiveScene().name == "main_menu")
 		{
 			Cursor.lockState = CursorLockMode.None;
 			Cursor.visible = true;
+		}
+		else
+		{
+			Cursor.lockState = CursorLockMode.Locked;
+			Cursor.visible = false;
 		}
 		PlayerIsMoving();
 		PlayerIsInteractingWithBox();
 		LevelTransition();
 		InCombatLevel();
-		if(Input.GetKey(KeyCode.Escape)) {
+		/*if(Input.GetKey(KeyCode.Escape)) {
 				cursor_check = false;
 			}
 			if(Input.GetKey(KeyCode.Space)) {
@@ -51,7 +56,7 @@ public class Player_control : MonoBehaviour {
 			else {
 				Cursor.lockState = CursorLockMode.None;
 				Cursor.visible = true;
-			}
+			}*/
 			if(SceneManager.GetActiveScene().name == "Level2")
 			{
 				if(controller.transform.position.y >= 10 || controller.transform.position.y <= -0.5)
