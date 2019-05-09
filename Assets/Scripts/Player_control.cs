@@ -29,6 +29,11 @@ public class Player_control : MonoBehaviour {
 	}
 
 	void Update() {
+		if(SceneManager.GetActiveScene().name == "Level4")
+		{
+			Cursor.lockState = CursorLockMode.None;
+			Cursor.visible = true;
+		}
 		PlayerIsMoving();
 		PlayerIsInteractingWithBox();
 		LevelTransition();

@@ -7,6 +7,8 @@ using UnityEngine.SceneManagement;
 public class FinalBossSceneMgr : MonoBehaviour {
 	private int PlayerHealth;
 	private int BossHealth;
+	public GameObject EndingBarSounds;
+	public GameObject EndingMusic;
 	public GameObject PlayerCam;
 	public GameObject Canvas1;
 	public GameObject PlayerBody;
@@ -18,7 +20,8 @@ public class FinalBossSceneMgr : MonoBehaviour {
 	public GameObject Enemies;
 	public Text PlayerHealthString;
 	public Text BossHealthString;
-	public int FinalBossHealth = 1;
+	public GameObject TheEndCanvas;
+	public int FinalBossHealth = 100;
 
 	public bool check_for_end = false;
 	// Use this for initialization
@@ -31,7 +34,7 @@ public class FinalBossSceneMgr : MonoBehaviour {
 		PlayerHealth = PlayerCam.GetComponent<Player_control>().Health;
 		BossHealth  = GameObject.Find("Boss").GetComponent<BossMove>().Health;
 		if(PlayerHealth <= 0) SceneManager.LoadScene("final_boss");
-		if(FinalBossHealth <= 0)
+		if(BossHealth <= 100)
 		{
 			if(!check_for_end)
 			{
@@ -44,6 +47,9 @@ public class FinalBossSceneMgr : MonoBehaviour {
 	}
 	IEnumerator IntroSequence () 
 	{
+		EndingBarSounds.SetActive(false);
+		EndingMusic.SetActive(false);
+		TheEndCanvas.SetActive(false);
 		Canvas1.SetActive(false);
 		OutroDialogue.SetActive(false);
 		Enemies.SetActive(false);
@@ -52,8 +58,8 @@ public class FinalBossSceneMgr : MonoBehaviour {
 		OutroCam.SetActive(false);
 		IntroCam1.SetActive(true);
 		IntroDialogue.SetActive(true);
-		yield return new WaitForSeconds(65);
-	Canvas1.SetActive(true);
+		yield return new WaitForSeconds(67);
+		Canvas1.SetActive(true);
 		IntroCam1.SetActive(false);
 		IntroDialogue.SetActive(false);
 		SceneMusic.SetActive(true);
@@ -69,7 +75,12 @@ public class FinalBossSceneMgr : MonoBehaviour {
 		PlayerCam.SetActive(false);
 		OutroDialogue.SetActive(true);
 		OutroCam.SetActive(true);
-		yield return new WaitForSeconds(74);
+		EndingMusic.SetActive(true);
+		yield return new WaitForSeconds(54);
+		EndingBarSounds.SetActive(true);
+		yield return new WaitForSeconds(20);
+		TheEndCanvas.SetActive(true);
+		yield return new WaitForSeconds(45);
 		SceneManager.LoadScene("main_menu");
 		//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}

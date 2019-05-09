@@ -63,7 +63,7 @@ public class Level4SceneMgr : MonoBehaviour {
 		OutroDialogue.SetActive(true);
 		OutroCam.SetActive(true);
 		yield return new WaitForSeconds(54);
-		SceneManager.LoadScene("main_menu");
+		SceneManager.LoadScene("final_boss");
 	}
 	void CheckAnswers1()
 	{

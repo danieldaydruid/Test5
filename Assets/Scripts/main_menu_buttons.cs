@@ -12,6 +12,9 @@ public class main_menu_buttons : MonoBehaviour {
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
 	}
 	public void ExitGame() {
-        	Application.Quit();
+        #if UNITY_EDITOR
+		UnityEditor.EditorApplication.isPlaying = false;
+		#endif
+		Application.Quit();
  	}
 }
